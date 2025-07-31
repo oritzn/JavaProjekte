@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ShowAddressFolder.ShowAddressController">
+   <children>
+      <Label alignment="CENTER" layoutX="155.0" layoutY="44.0" prefHeight="44.0" prefWidth="293.0" text="Adressen anzeigen">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgView" fitHeight="35.0" fitWidth="30.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#home" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/icons8-zuhause-24.png" />
+         </image>
+      </ImageView>
+      <ListView fx:id="lvAdressen" layoutX="172.0" layoutY="108.0" prefHeight="251.0" prefWidth="258.0" />
+   </children>
+</AnchorPane>

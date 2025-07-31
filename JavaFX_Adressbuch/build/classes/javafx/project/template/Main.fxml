@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="308.0" prefWidth="468.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafx.project.template.MainController">
+   <children>
+      <Label alignment="CENTER" layoutX="136.0" layoutY="58.0" prefHeight="51.0" prefWidth="196.0" text="Adressbuch">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnHinzufügen" alignment="CENTER" layoutX="168.0" layoutY="154.0" mnemonicParsing="false" onAction="#addAddress" prefHeight="28.0" prefWidth="133.0" text="Adressse hinzufügen" />
+      <Button fx:id="btnLöschen" alignment="CENTER" layoutX="168.0" layoutY="230.0" mnemonicParsing="false" onAction="#deletAdress" prefHeight="28.0" prefWidth="133.0" text="Adresse löschen" />
+      <Button fx:id="btnAnzeigen" alignment="CENTER" layoutX="168.0" layoutY="192.0" mnemonicParsing="false" onAction="#showAdress" prefHeight="28.0" prefWidth="133.0" text="Adressen anzeigen" />
+   </children>
+</AnchorPane>
